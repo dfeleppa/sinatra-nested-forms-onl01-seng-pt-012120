@@ -19,9 +19,8 @@ module FormsLab
     end
     
     @ships = Ships.all
-  @courses = Course.all
- 
-  erb :student
     
+    erb :"pirates/show"
+
   end
 end
