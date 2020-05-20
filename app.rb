@@ -17,7 +17,8 @@ module FormsLab
     params[:name][:weight][:height].each do |details|
       Ship.new(details)  
     end
- 
+    
+    @ships = Ships.all
   @courses = Course.all
  
   erb :student
