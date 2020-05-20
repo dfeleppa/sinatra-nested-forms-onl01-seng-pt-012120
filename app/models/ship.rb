@@ -11,8 +11,9 @@ attr_accessor :name, :type, :booty
   end
  
   def self.all
-    SHIPS
+    @@all
   end
+  
   def self.clear
     @@all = []
   end
